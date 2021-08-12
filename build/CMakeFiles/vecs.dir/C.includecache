@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../defs/ocml_vec_defs.h
+inttypes.h
+-
+
+../include/ocml_vec2.h
+inttypes.h
+-
+ocml_vec_defs.h
+-
+
+../include/ocml_vec3.h
+inttypes.h
+-
+ocml_vec_defs.h
+-
+
+../include/ocml_vecs.h
+ocml_vec2.h
+../include/ocml_vec2.h
+ocml_vec3.h
+../include/ocml_vec3.h
+
+/home/luis/Documents/progs/ocml/examples/vecs.c
+stdio.h
+-
+ocml_vecs.h
+-
+

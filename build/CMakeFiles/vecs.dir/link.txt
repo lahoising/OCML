@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/vecs.dir/examples/vecs.c.o  -o vecs  libocml.a 

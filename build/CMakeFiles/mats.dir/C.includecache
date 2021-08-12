@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../defs/ocml_mat_defs.h
+
+../include/ocml_mats.h
+ocml_mat_defs.h
+-
+
+/home/luis/Documents/progs/ocml/examples/mats.c
+ocml_mats.h
+-
+
