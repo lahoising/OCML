@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/mats.dir/examples/mats.c.o  -o mats  libocml.a 
